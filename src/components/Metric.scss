@@ -1,0 +1,17 @@
+.metric-container {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 240px;
+  height: 180px;
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .result {
+    display: flex;
+  }
+}

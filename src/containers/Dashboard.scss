@@ -1,0 +1,17 @@
+.dashboard-container {
+  font-family: "Comic Neue", cursive;
+  padding: 40px 60px;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+  .all-metrics-container {
+    display: flex;
+    // justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
