@@ -12,7 +12,9 @@ export default function Dashboard() {
     <div className="dashboard-container">
       <h1>Memory - SuperStore</h1>
       {isLoading ? (
-        <div>All datas are loading, please wait...</div>
+        <div className="loading-text">
+          All datas are loading, please wait...
+        </div>
       ) : (
         <>
           <Selector

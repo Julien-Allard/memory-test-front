@@ -1,9 +1,14 @@
 .dashboard-container {
-  font-family: "Comic Neue", cursive;
+  font-family: cursive;
   padding: 40px 60px;
   background-color: #2b2b42;
   color: rgba(255, 255, 255, 0.788);
   border-radius: 15px;
+
+  .loading-text {
+    text-align: center;
+    font-size: 20px;
+  }
 
   h1 {
     font-size: 32px;
