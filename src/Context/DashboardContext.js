@@ -12,7 +12,7 @@ export const DashboardProvider = (props) => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:4000/transactions?state=${state}`
+          `https://memory-test-back.herokuapp.com/transactions?state=${state}`
         );
         setData(response.data);
         setIsLoading(false);
