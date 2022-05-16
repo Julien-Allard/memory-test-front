@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import Chart from "../components/Chart";
 import Metric from "../components/Metric";
 import Selector from "../components/Selector";
 import { DashboardContext } from "../Context/DashboardContext";
@@ -29,6 +30,8 @@ export default function Dashboard() {
             />
             <Metric title={"Customers"} data={data.uniqueCustomers} />
           </div>
+          <h2>Revenue Per Month</h2>
+          <Chart data={data.revenuePerMonth} />
         </>
       )}
     </div>

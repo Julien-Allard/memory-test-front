@@ -1,6 +1,9 @@
 .dashboard-container {
   font-family: "Comic Neue", cursive;
   padding: 40px 60px;
+  background-color: #2b2b42;
+  color: rgba(255, 255, 255, 0.788);
+  border-radius: 15px;
 
   h1 {
     font-size: 32px;
@@ -8,9 +11,14 @@
     margin-bottom: 50px;
   }
 
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
   .all-metrics-container {
     display: flex;
-    // justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
   }

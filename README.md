@@ -28,3 +28,7 @@ Accepted props :
 - title : title of the metric
 - data : the displayed data
 - currency (optionnal) : passes a currency if needed
+
+### Chart.js
+
+Contain the chart and chart datas. Using the recharts library
