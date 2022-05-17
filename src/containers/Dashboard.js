@@ -13,7 +13,7 @@ export default function Dashboard() {
       <h1>Memory - SuperStore</h1>
       {isLoading ? (
         <div className="loading-text">
-          All datas are loading, please wait...
+          <p>All datas are loading, please wait...</p>
         </div>
       ) : (
         <>

@@ -1,13 +1,14 @@
 .metric-container {
-  box-shadow: 0px 0px 5px 5px #474872;
+  box-shadow: rgb(159 162 191 / 18%) 0px 9px 16px,
+    rgb(159 162 191 / 32%) 0px 2px 2px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   width: 240px;
   height: 180px;
-
-  background-color: #373859;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
 
   h3 {
     font-size: 24px;

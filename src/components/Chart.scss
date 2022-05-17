@@ -1,8 +1,10 @@
 .chart-container {
-  border-left: 8px double rgba(255, 255, 255, 0.788);
-  border-bottom: 8px double rgba(255, 255, 255, 0.788);
-  background-color: #373859;
+  border-left: 8px double rgb(34, 51, 84);
+  border-bottom: 8px double rgb(34, 51, 84);
+  background-color: rgb(255, 255, 255);
   height: 350px;
   max-width: 780px;
-  box-shadow: 0px 0px 5px 5px #474872;
+  box-shadow: rgb(159 162 191 / 18%) 0px 9px 16px,
+    rgb(159 162 191 / 32%) 0px 2px 2px;
+  border-radius: 10px;
 }

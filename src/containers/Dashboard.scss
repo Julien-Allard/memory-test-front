@@ -1,9 +1,11 @@
 .dashboard-container {
-  font-family: cursive;
+  font-family: sans-serif;
   padding: 40px 60px;
-  background-color: #2b2b42;
-  color: rgba(255, 255, 255, 0.788);
+  background-color: #f2f5f9;
+  color: rgb(34, 51, 84);
   border-radius: 15px;
+  box-shadow: rgb(159 162 191 / 18%) 0px 9px 16px,
+    rgb(159 162 191 / 32%) 0px 2px 2px;
 
   .loading-text {
     text-align: center;
